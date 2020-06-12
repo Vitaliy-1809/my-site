@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html lang="ru">
+<html prefix="og: http://ogp.me/ns#">
   <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic" >
     <title>Портфолио Junior верстальщика</title>
+    <meta property="og:title" content="Vitaliy Gukalov - portfolio">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://vitaliy-1809.github.io/my-site/">
+    <meta property="og:image" content="https://vitaliy-1809.github.io/my-site/files/user.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic">
   </head>
 
   <body>
@@ -16,6 +21,13 @@
         <a class="header-facebook" href="https://www.facebook.com/gukalov.v">Facebook</a>
         <a class="header-linkedin" href="https://www.linkedin.com/in/vitaliy-gukalov/">LinkedIn</a>
       </div>
+      <!--<nav class="main-menu">
+        <ul>
+          <li><a href="#about"><i class="fa fa-home fa-fw"></i>Обо мне</a></li>
+          <li><a href="#skills">Мои навыки</a></li>
+          <li><a href="#works">Мои работы</a></li>
+        </ul>
+      </nav>-->
     </header>
 
     <section class="hero-image">
@@ -27,7 +39,7 @@
 
     <section class="intro">
       <div class="container">
-        <h2 class="subheading">Давайте познакомимся</h2>
+        <h2 class="subheading" id="about">Давайте познакомимся</h2>
         <figure class="user-image">
           <img src="files/user.jpg" width="928" alt="Vitaliy Gukalov">
         </figure>
@@ -41,7 +53,7 @@
           <p>Выполнение задач по верстке в рамках моих компетенций.</p>
         </div>
         <div class="skills">
-          <h3>Мои навыки</h3>
+          <h3 id="skills">Мои навыки</h3>
           <dl class="skills-list">
             <dt class="skill-html">HTML</dt>
             <dd class="level"><div style="width: 60%;">60%</div></dd>
@@ -54,7 +66,7 @@
 
     <section class="portfolio">
       <div class="container">
-        <h2 class="subheading">Мои работы</h2>
+        <h2 class="subheading" id="works">Мои работы</h2>
         <figure class="project-image">
           <img src="files/project.png" width="928" alt="Cайт инструктора Кекса">
         </figure>
@@ -72,6 +84,7 @@
 
     <footer class="page-footer">
       <div class="container">
+        <a class="button2" href="#">Вверх</a>
         <a class="footer-email" href="mailto:gukalov.v@ukr.net">gukalov.v@ukr.net</a>
         <a class="footer-phone" href="tel:+380976827368">+38 (097) 682 73 68</a>
         <a class="footer-github" href="https://github.com/Vitaliy-1809">GitHub</a>

@@ -11,6 +11,32 @@ body {
   background-position: top center;
 }
 
+/*
+ul {
+  list-style: none; 
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+}
+
+.main-menu a:hover {
+  background: #899094;
+  text-decoration: underline;
+  color: white;
+  transition: .5s linear;
+}
+*/
+
+.blog-navigation {
+  margin-bottom: 30px;
+  padding: 20px;
+
+  background-color: rgba(68, 112, 196, 0.7);
+  border: 5px solid #2d508f;
+
+  color: #ffffff;
+}
+
 .container {
   max-width: 928px;
   margin: 0 auto;
@@ -34,6 +60,12 @@ body {
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
+  transition: .5s linear;
+}
+
+.page-header a:hover {
+  text-decoration: underline;
+  color: rgb(0, 0, 0);
 }
 
 .header-email {
@@ -186,6 +218,24 @@ body {
   border-radius: 4px;
   background-color: #288be6;
   color: #ffffff;
+  transition: .5s linear;
+}
+
+.portfolio a:hover {
+  text-decoration: underline;
+  color: rgb(0, 0, 0);
+}
+
+.button2 {
+  padding: 6px 20px;
+  display: inline-block;
+  vertical-align: baseline;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 4px;
+  background-color: #288be6;
+  color: #ffffff;
+  transition: .5s linear;
 }
 
 .page-footer {
@@ -200,6 +250,12 @@ body {
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
+  transition: .5s linear;
+}
+
+.page-footer a:hover {
+  text-decoration: underline;
+  color: rgb(0, 0, 0);
 }
 
 .footer-email {

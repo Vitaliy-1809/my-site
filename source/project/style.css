@@ -7,6 +7,20 @@ body {
   background: #ffffff url("img/keks-background.jpg") no-repeat 50% 0;
 }
 
+a {
+  margin-left: 0;
+  color: #000000;
+  text-decoration: underline;
+  background-repeat: no-repeat;
+  background-position: left;
+  transition: .5s linear;
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(230, 213, 213);
+}
+
 h1 {
   width: 260px;
   font-family: "Georgia", serif;

@@ -66,6 +66,13 @@ time {
 a[href] {
   color: #0099ef;
   text-decoration: underline;
+  transition: .5s linear;
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  transition: .5s linear;
 }
 
 del {
@@ -97,11 +104,16 @@ i {
 .blog-navigation {
   margin-bottom: 30px;
   padding: 20px;
-
   background-color: rgba(68, 112, 196, 0.7);
   border: 5px solid #2d508f;
-
   color: #ffffff;
+  
+}
+
+.blog-navigation a:hover {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  transition: .5s linear;
 }
 
 .blog-navigation h2 {
